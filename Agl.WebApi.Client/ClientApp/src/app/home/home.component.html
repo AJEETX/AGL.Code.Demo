@@ -1,0 +1,24 @@
+<div class="container h-100">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div *ngIf="errormessage$ | async">
+      <div class="alert alert-danger col-md-12 text-center">{{customErrorMessage}}</div>
+    </div>
+    <div *ngIf="!(errormessage$ | async)">
+      <div *ngIf='Loading' class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+        <p class="lead" *ngIf='Loading'><img src="assets/images/ajax-loader.gif" alt="Loading"></p>
+      </div>
+      <div *ngIf="owners != null">
+        <div *ngFor="let owner of owners">
+          <b>{{owner.gender}}</b>
+          <span *ngIf="owner.pets.length == 0">
+            <br />
+            <font color="red">No Pets</font>
+          </span>
+          <ul *ngFor="let pet of owner.pets">
+            <li>{{pet}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
