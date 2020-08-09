@@ -3,7 +3,7 @@
 Problem: 
 http://agl-developer-test.azurewebsites.net/
 
-[![.Net Framework](https://img.shields.io/badge/DotNet-3.1_Framework-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/3.1) |[![Node](https://img.shields.io/badge/NodeJs-v12-blue.svg?style=plastic)](https://nodejs.org/en/download/) | [![Angular](https://img.shields.io/badge/angular-8-blue)](https://angular.io/) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/Agl.Demo.svg) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/Agl.Demo.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/Agl.Demo.svg) 
+[![.Net Framework](https://img.shields.io/badge/DotNet-3.1_Framework-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/3.1) |[![Node](https://img.shields.io/badge/NodeJs-v12-blue.svg?style=plastic)](https://nodejs.org/en/download/) | [![Angular](https://img.shields.io/badge/angular-8-blue)](https://angular.io/) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/AGL.Code.Demo.svg) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/AGL.Code.Demo.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/AGL.Code.Demo.svg) 
 | --- | ---          | ---        | ---      | ---        |  --- |
 
 ---------------------------------------
@@ -34,9 +34,9 @@ The repository consists of projects as below:
 
 ##### Project Setup to run the application
 
->   1. Please clone or download the repository from [![github](https://img.shields.io/badge/git-hub-blue.svg?style=plastic)](https://github.com/AJEETX/Agl.Demo) 
+>   1. Please clone or download the repository from [![github](https://img.shields.io/badge/git-hub-blue.svg?style=plastic)](https://github.com/AJEETX/AGL.Code.Demo) 
 >   
->   2. Unzip the downloaded repository and open the solution file **Agl.Demo.sln** in Visual Studio 2019.
+>   2. Unzip the downloaded repository and open the solution file **AGL.Code.Demo.sln** in Visual Studio 2019.
 >
 >   3. To start backend and frontend applications, the solution needs to be setup with **Multiple startup projects**
 >   
